@@ -1,6 +1,6 @@
 {
   "name": "ts-observer-pattern",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Interfaces to help working with the Observer Pattern",
   "main": "index.ts",
   "scripts": {
