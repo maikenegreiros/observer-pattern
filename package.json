@@ -2,7 +2,7 @@
   "name": "ts-observer-pattern",
   "version": "1.0.0",
   "description": "Interfaces to help working with the Observer Pattern",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
