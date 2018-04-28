@@ -1,0 +1,28 @@
+{
+  "name": "ts-observer-pattern",
+  "version": "1.0.0",
+  "description": "Interfaces to help working with the Observer Pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maikenegreiros/observer-pattern.git"
+  },
+  "keywords": [
+    "observer",
+    "observer",
+    "pattern"
+  ],
+  "author": {
+    "name": "Maike Negreiros",
+    "email": "maike_jbe@hotmail.com",
+    "homepage": "https://www.maikenegreiros.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maikenegreiros/observer-pattern/issues"
+  },
+  "homepage": "https://github.com/maikenegreiros/observer-pattern#readme"
+}
