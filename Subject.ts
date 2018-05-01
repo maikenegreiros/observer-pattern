@@ -3,6 +3,11 @@ export abstract class Subject
 {
     protected observers: Observer[]
 
+    public constructor()
+    {
+        this.observers = []
+    }
+
     public attach(observer: Observer): this
     {
         this.observers.push(observer)
