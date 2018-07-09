@@ -1,5 +1,6 @@
-import { Observer } from "./Observer"
-export abstract class Subject
+import Observer from "./Observer"
+
+export default abstract class Subject
 {
     protected observers: Observer[]
 

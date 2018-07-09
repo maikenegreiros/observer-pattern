@@ -1,13 +1,18 @@
 # ts-observer-pattern
 A simple observer pattern implementation in TypeScript.  
 
-```npm install ts-observer-pattern```
+```
+npm install ts-observer-pattern
+```
 
-# Example
+## Example
 
 In the example that follows, I'm implementing a relationship bettween a magazine and it subscribers
 
-```
+```TypeScript
+// Magazine.ts
+import { Subject } from 'ts-observer-pattern'
+
 class Magazine extends Subject
 {
     private Observers: Observers[]
@@ -21,7 +26,10 @@ class Magazine extends Subject
 }
 ```
 
-```
+```TypeScript
+// Subscriber.ts
+import { Observer } from 'ts-observer-pattern'
+
 class Subscriber implements Observer
 {
     public update(data): this
@@ -31,7 +39,11 @@ class Subscriber implements Observer
 }
 ```
 
-```
+```TypeScript
+// main.ts
+import { Magazine } from './Magazine'
+import { Subscriber } from './Subscriber'
+
 let Coders = new Magazine
 
 let Matt = new Subscriber
